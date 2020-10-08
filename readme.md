@@ -13,6 +13,13 @@ Addds organization to friendlyname; changes some filters
 XML:
 * Location
   * Adds organization name to the friendlyname
+  * Adds parent_org_id and locationtype_id (similar to DataCenter View extension by @Molkobain)
+* LocationType
+  * Adds class similar to DataCenter View extension by @Molkobain
+* Person
+  * Changes OQL filter of location_id.
+    * Now shows all locations of the parent organization and any suborganization.
 * PhysicalDevice
   * Changes OQL filter of location_id.
     * Now shows all locations of the parent organization and any suborganization.
+
